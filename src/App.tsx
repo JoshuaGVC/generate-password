@@ -24,7 +24,6 @@ const App = () => {
     const keys = Object.keys( checkoxesList );
     keys.forEach( item => {
       const value = checkoxesList[ item as nameType ];
-      console.log("guardo esto:",value)
       if ( value ) {
         names.push( item )
       }
@@ -82,8 +81,8 @@ const App = () => {
     if ( allUncheckeds ) return alert('tienes que checkear al menos uno');
 
     const inputsName = getInputsCheckboxs();
-    const values = getObjectValues( inputsName ); // =>> ABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789
-    const numsRandoms = getRandomArray( rangeLength, values.length ); // =>> [19, 17, 19, 23, 25, 1, 8, 7]
+    const values = getObjectValues( inputsName ); 
+    const numsRandoms = getRandomArray( rangeLength, values.length ); 
     const password = characterRandoms(numsRandoms, values);
 
     setPasswordValue(password);
