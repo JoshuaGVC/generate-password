@@ -4,7 +4,7 @@
 El App "Generate-Password" es una aplicacion web muy util, ya que te permite crear claves aleatorias y tu decides el nivel de dificultad para tus claves.
 podras incluir mayusculas, minusculas, números, símbolos y el numero de caracteres (como minimo de 8 y maximo 20 caracteres)
 
-----------------------------------------------------------[link demo](https://joshuagvc.github.io/generate-password--------------------------------------------------------------------
+[link demo](https://joshuagvc.github.io/generate-password)
 
 ## ¿Como usar el app?
 
@@ -15,4 +15,4 @@ podras incluir mayusculas, minusculas, números, símbolos y el numero de caract
 
 ## Datos de la creacion de la app.
 
-Esta app fue ralizada con React, fue muy interesante desarrollar esta App, aparentemente parece una aplicacion sencilla, pero a la hora de desarrollarla resulta que es un poco extenso me gusto mucho trabajar con en input range y vincular las funcionabilidades con los otros componentes, espero que les haya gustado mi codigo y animo a que puedan realizar su propio "Generator Password".
+Esta app fue realizada con React, fue muy interesante desarrollar esta App, aparentemente parece una aplicacion sencilla, pero a la hora de desarrollarla resulta que es un poco extenso me gusto mucho trabajar con en input range y vincular las funcionabilidades con los otros componentes, espero que les haya gustado mi codigo y animo a que puedan realizar su propio "Generator Password".
